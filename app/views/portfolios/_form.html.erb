@@ -17,17 +17,7 @@
   </div>
 
   <ul>
-<<<<<<< HEAD
-    <%= f.fields_for :technologies  do |technology_form| %>
-    <li>
-      <%= technology_form.label :name %>
-      <%= technology_form.text_field :name %>
-    </li>
-    <% end %>
-  </ul>
-  <f class="actions">
-=======
-    <%= f.fields_for :technologies_attributes do |technology_form| %>
+    <%= f.fields_for :technologies do |technology_form| %>
       <li>
         <%= technology_form.label :name %>
         <%= technology_form.text_field :name %>
@@ -36,7 +26,6 @@
   </ul>
 
   <div class="actions">
->>>>>>> authentication
     <%= f.submit %>
   </div>
 <% end %>
