@@ -1,4 +1,5 @@
 class Skill < ApplicationRecord
+<<<<<<< HEAD
   include Placeholder
   validates_presence_of :title, :percent_utilized
 
@@ -8,4 +9,7 @@ class Skill < ApplicationRecord
 
   validates_presence_of :title, :precent_utilized
 
+=======
+  validates_presence_of :title, :percent_utilized
+>>>>>>> authentication
 end
