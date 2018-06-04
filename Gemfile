@@ -11,6 +11,7 @@ gem 'rails', '~> 5.1.5'
 gem 'rubocop', '~> 0.56.0', require: false
 gem 'bootstrap', '~> 4.1.1'
 gem 'jquery-rails'
+gem 'petergate'
 
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
