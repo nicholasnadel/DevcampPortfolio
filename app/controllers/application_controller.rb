@@ -3,4 +3,9 @@ class ApplicationController < ActionController::Base
   include DeviseWhitelist
   include SetSource
   include CurrentUserConcern
+  include DefaultPageContent
+
+  def set_title
+    @page_title = "Nicholas S. Nadel"
+  end
 end
