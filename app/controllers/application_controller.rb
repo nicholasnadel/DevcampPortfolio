@@ -5,7 +5,4 @@ class ApplicationController < ActionController::Base
   include CurrentUserConcern
   include DefaultPageContent
 
-  def set_title
-    @page_title = "Nicholas S. Nadel"
-  end
 end
